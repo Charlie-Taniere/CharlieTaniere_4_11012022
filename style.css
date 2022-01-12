@@ -133,7 +133,6 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -270,6 +269,8 @@ a:hover {
 
 .voffset-lg {
     margin-top: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 .row-no-gutters {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -753,7 +754,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(48, 48, 48, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,21 +772,23 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #FCB33E;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FCB33E!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #FCB33E;
+    color: #303030
+    !important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #FDCC70!important;
+    color: #303030
+    !important;
 }
 
 .ltc-white {
@@ -805,8 +808,10 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #303030
+    !important;
+    border-color: #303030
+    !important;
 }
 
 .bg-dots-bg {
@@ -822,7 +827,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpeg");
 }
 
 @media (max-width: 1024px) {
