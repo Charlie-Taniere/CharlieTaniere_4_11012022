@@ -1090,6 +1090,11 @@ q {
     font-size: 18px;
 }
 
+.p-footer {
+    text-align: center;
+    color: #303030;
+}
+
 @media (max-width: 767px) {
     .col-xs-12 {
         width: 100%;
